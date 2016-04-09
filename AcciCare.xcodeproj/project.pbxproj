@@ -13,6 +13,13 @@
 		B90C04291CB81E0E00AB1DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90C04271CB81E0E00AB1DBD /* Main.storyboard */; };
 		B90C042B1CB81E0E00AB1DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90C042A1CB81E0E00AB1DBD /* Assets.xcassets */; };
 		B90C042E1CB81E0E00AB1DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90C042C1CB81E0E00AB1DBD /* LaunchScreen.storyboard */; };
+		B96C71381CB96F1400D13A5B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71371CB96F1400D13A5B /* HomeViewController.m */; };
+		B96C713E1CB97B7400D13A5B /* HospitalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C713D1CB97B7400D13A5B /* HospitalsViewController.m */; };
+		B96C71411CB97C9300D13A5B /* HospitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71401CB97C9300D13A5B /* HospitalDetailViewController.m */; };
+		B96C71441CB97CE200D13A5B /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71431CB97CE200D13A5B /* ContactViewController.m */; };
+		B96C71471CB97D2400D13A5B /* AmbulanceConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71461CB97D2400D13A5B /* AmbulanceConfirmationViewController.m */; };
+		B96C714A1CB97D5100D13A5B /* EmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71491CB97D5100D13A5B /* EmergencyViewController.m */; };
+		B96C714D1CB97DAB00D13A5B /* notificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C714C1CB97DAB00D13A5B /* notificationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		B90C042A1CB81E0E00AB1DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90C042D1CB81E0E00AB1DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B90C042F1CB81E0E00AB1DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96C71361CB96F1400D13A5B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = "View Controllers/HomeViewController.h"; sourceTree = "<group>"; };
+		B96C71371CB96F1400D13A5B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = "View Controllers/HomeViewController.m"; sourceTree = "<group>"; };
+		B96C713C1CB97B7400D13A5B /* HospitalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HospitalsViewController.h; path = "View Controllers/HospitalsViewController.h"; sourceTree = "<group>"; };
+		B96C713D1CB97B7400D13A5B /* HospitalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HospitalsViewController.m; path = "View Controllers/HospitalsViewController.m"; sourceTree = "<group>"; };
+		B96C713F1CB97C9300D13A5B /* HospitalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HospitalDetailViewController.h; path = "View Controllers/HospitalDetailViewController.h"; sourceTree = "<group>"; };
+		B96C71401CB97C9300D13A5B /* HospitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HospitalDetailViewController.m; path = "View Controllers/HospitalDetailViewController.m"; sourceTree = "<group>"; };
+		B96C71421CB97CE200D13A5B /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = "View Controllers/ContactViewController.h"; sourceTree = "<group>"; };
+		B96C71431CB97CE200D13A5B /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = "View Controllers/ContactViewController.m"; sourceTree = "<group>"; };
+		B96C71451CB97D2400D13A5B /* AmbulanceConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmbulanceConfirmationViewController.h; path = "View Controllers/AmbulanceConfirmationViewController.h"; sourceTree = "<group>"; };
+		B96C71461CB97D2400D13A5B /* AmbulanceConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmbulanceConfirmationViewController.m; path = "View Controllers/AmbulanceConfirmationViewController.m"; sourceTree = "<group>"; };
+		B96C71481CB97D5100D13A5B /* EmergencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmergencyViewController.h; path = "View Controllers/EmergencyViewController.h"; sourceTree = "<group>"; };
+		B96C71491CB97D5100D13A5B /* EmergencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmergencyViewController.m; path = "View Controllers/EmergencyViewController.m"; sourceTree = "<group>"; };
+		B96C714B1CB97DAB00D13A5B /* notificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notificationViewController.h; path = "View Controllers/notificationViewController.h"; sourceTree = "<group>"; };
+		B96C714C1CB97DAB00D13A5B /* notificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = notificationViewController.m; path = "View Controllers/notificationViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +83,21 @@
 				B90C04221CB81E0E00AB1DBD /* AppDelegate.m */,
 				B90C04241CB81E0E00AB1DBD /* ViewController.h */,
 				B90C04251CB81E0E00AB1DBD /* ViewController.m */,
+				B96C71361CB96F1400D13A5B /* HomeViewController.h */,
+				B96C71371CB96F1400D13A5B /* HomeViewController.m */,
+				B96C713C1CB97B7400D13A5B /* HospitalsViewController.h */,
+				B96C713D1CB97B7400D13A5B /* HospitalsViewController.m */,
 				B90C04271CB81E0E00AB1DBD /* Main.storyboard */,
+				B96C713F1CB97C9300D13A5B /* HospitalDetailViewController.h */,
+				B96C71401CB97C9300D13A5B /* HospitalDetailViewController.m */,
+				B96C71421CB97CE200D13A5B /* ContactViewController.h */,
+				B96C71431CB97CE200D13A5B /* ContactViewController.m */,
+				B96C71451CB97D2400D13A5B /* AmbulanceConfirmationViewController.h */,
+				B96C71461CB97D2400D13A5B /* AmbulanceConfirmationViewController.m */,
+				B96C71481CB97D5100D13A5B /* EmergencyViewController.h */,
+				B96C71491CB97D5100D13A5B /* EmergencyViewController.m */,
+				B96C714B1CB97DAB00D13A5B /* notificationViewController.h */,
+				B96C714C1CB97DAB00D13A5B /* notificationViewController.m */,
 				B90C042A1CB81E0E00AB1DBD /* Assets.xcassets */,
 				B90C042C1CB81E0E00AB1DBD /* LaunchScreen.storyboard */,
 				B90C042F1CB81E0E00AB1DBD /* Info.plist */,
@@ -149,9 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96C71471CB97D2400D13A5B /* AmbulanceConfirmationViewController.m in Sources */,
+				B96C714D1CB97DAB00D13A5B /* notificationViewController.m in Sources */,
+				B96C714A1CB97D5100D13A5B /* EmergencyViewController.m in Sources */,
+				B96C71441CB97CE200D13A5B /* ContactViewController.m in Sources */,
 				B90C04261CB81E0E00AB1DBD /* ViewController.m in Sources */,
 				B90C04231CB81E0E00AB1DBD /* AppDelegate.m in Sources */,
+				B96C713E1CB97B7400D13A5B /* HospitalsViewController.m in Sources */,
+				B96C71411CB97C9300D13A5B /* HospitalDetailViewController.m in Sources */,
 				B90C04201CB81E0E00AB1DBD /* main.m in Sources */,
+				B96C71381CB96F1400D13A5B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +342,7 @@
 				B90C04341CB81E0E00AB1DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,8 @@
 #import "AmbulanceConfirmationViewController.h"
 
 @interface AmbulanceConfirmationViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *ambulance;
+@property (weak, nonatomic) IBOutlet UIButton *confirmationButton;
 
 @end
 

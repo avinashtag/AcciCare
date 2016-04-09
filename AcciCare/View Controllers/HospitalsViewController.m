@@ -9,6 +9,7 @@
 #import "HospitalsViewController.h"
 
 @interface HospitalsViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *hospiltalsTableView;
 
 @end
 

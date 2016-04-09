@@ -9,6 +9,9 @@
 #import "ContactViewController.h"
 
 @interface ContactViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *actionButton;
+@property (weak, nonatomic) IBOutlet UILabel *family;
+@property (weak, nonatomic) IBOutlet UILabel *hospitalName;
 
 @end
 

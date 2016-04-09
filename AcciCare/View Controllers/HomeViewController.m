@@ -10,6 +10,8 @@
 
 @interface HomeViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *settingButton;
+@property (weak, nonatomic) IBOutlet UIButton *panicButton;
 @end
 
 @implementation HomeViewController
@@ -22,6 +24,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)panickTouch:(id)sender {
+    
+}
+- (IBAction)settingTouch:(id)sender {
 }
 
 /*

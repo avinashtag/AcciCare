@@ -9,6 +9,9 @@
 #import "HospitalDetailViewController.h"
 
 @interface HospitalDetailViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *hospitalDiscription;
+@property (weak, nonatomic) IBOutlet UIImageView *hospitalImage;
+@property (weak, nonatomic) IBOutlet UILabel *hospitalName;
 
 @end
 
