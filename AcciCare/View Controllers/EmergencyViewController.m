@@ -7,6 +7,8 @@
 //
 
 #import "EmergencyViewController.h"
+#import "ACHealthController.h"
+#import "User.h"
 
 @interface EmergencyViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    User *user = [ACHealthController sharedHealth].user;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +37,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
 
 @end

@@ -20,6 +20,9 @@
 		B96C71471CB97D2400D13A5B /* AmbulanceConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71461CB97D2400D13A5B /* AmbulanceConfirmationViewController.m */; };
 		B96C714A1CB97D5100D13A5B /* EmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C71491CB97D5100D13A5B /* EmergencyViewController.m */; };
 		B96C714D1CB97DAB00D13A5B /* notificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96C714C1CB97DAB00D13A5B /* notificationViewController.m */; };
+		B99E51341CCA8A0E00BDF5F4 /* ACHealthController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E51331CCA8A0E00BDF5F4 /* ACHealthController.m */; };
+		B99E51371CCA8B3C00BDF5F4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99E51361CCA8B3C00BDF5F4 /* HealthKit.framework */; };
+		B99E513A1CCA933D00BDF5F4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E51391CCA933D00BDF5F4 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,12 @@
 		B96C71491CB97D5100D13A5B /* EmergencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmergencyViewController.m; path = "View Controllers/EmergencyViewController.m"; sourceTree = "<group>"; };
 		B96C714B1CB97DAB00D13A5B /* notificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notificationViewController.h; path = "View Controllers/notificationViewController.h"; sourceTree = "<group>"; };
 		B96C714C1CB97DAB00D13A5B /* notificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = notificationViewController.m; path = "View Controllers/notificationViewController.m"; sourceTree = "<group>"; };
+		B99E51321CCA8A0E00BDF5F4 /* ACHealthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACHealthController.h; path = "View Controllers/ACHealthController.h"; sourceTree = "<group>"; };
+		B99E51331CCA8A0E00BDF5F4 /* ACHealthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACHealthController.m; path = "View Controllers/ACHealthController.m"; sourceTree = "<group>"; };
+		B99E51351CCA8B3C00BDF5F4 /* AcciCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AcciCare.entitlements; sourceTree = "<group>"; };
+		B99E51361CCA8B3C00BDF5F4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		B99E51381CCA933D00BDF5F4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "View Controllers/User.h"; sourceTree = "<group>"; };
+		B99E51391CCA933D00BDF5F4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "View Controllers/User.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99E51371CCA8B3C00BDF5F4 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,7 @@
 		B90C04121CB81E0E00AB1DBD = {
 			isa = PBXGroup;
 			children = (
+				B99E51361CCA8B3C00BDF5F4 /* HealthKit.framework */,
 				B90C041D1CB81E0E00AB1DBD /* AcciCare */,
 				B90C041C1CB81E0E00AB1DBD /* Products */,
 			);
@@ -79,6 +90,7 @@
 		B90C041D1CB81E0E00AB1DBD /* AcciCare */ = {
 			isa = PBXGroup;
 			children = (
+				B99E51351CCA8B3C00BDF5F4 /* AcciCare.entitlements */,
 				B90C04211CB81E0E00AB1DBD /* AppDelegate.h */,
 				B90C04221CB81E0E00AB1DBD /* AppDelegate.m */,
 				B90C04241CB81E0E00AB1DBD /* ViewController.h */,
@@ -88,6 +100,7 @@
 				B96C713C1CB97B7400D13A5B /* HospitalsViewController.h */,
 				B96C713D1CB97B7400D13A5B /* HospitalsViewController.m */,
 				B90C04271CB81E0E00AB1DBD /* Main.storyboard */,
+				B99E50C31CCA6A9D00BDF5F4 /* AcciCare */,
 				B96C713F1CB97C9300D13A5B /* HospitalDetailViewController.h */,
 				B96C71401CB97C9300D13A5B /* HospitalDetailViewController.m */,
 				B96C71421CB97CE200D13A5B /* ContactViewController.h */,
@@ -98,6 +111,10 @@
 				B96C71491CB97D5100D13A5B /* EmergencyViewController.m */,
 				B96C714B1CB97DAB00D13A5B /* notificationViewController.h */,
 				B96C714C1CB97DAB00D13A5B /* notificationViewController.m */,
+				B99E51321CCA8A0E00BDF5F4 /* ACHealthController.h */,
+				B99E51331CCA8A0E00BDF5F4 /* ACHealthController.m */,
+				B99E51381CCA933D00BDF5F4 /* User.h */,
+				B99E51391CCA933D00BDF5F4 /* User.m */,
 				B90C042A1CB81E0E00AB1DBD /* Assets.xcassets */,
 				B90C042C1CB81E0E00AB1DBD /* LaunchScreen.storyboard */,
 				B90C042F1CB81E0E00AB1DBD /* Info.plist */,
@@ -112,6 +129,869 @@
 				B90C041F1CB81E0E00AB1DBD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99E50C31CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50C41CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50C41CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50C51CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50C51CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50C61CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50C61CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50C71CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50C71CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50C81CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50C81CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50C91CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50C91CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50CA1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50CA1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50CB1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50CB1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50CC1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50CC1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50CD1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50CD1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50CE1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50CE1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50CF1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50CF1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D01CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D01CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D11CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D11CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D21CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D21CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D31CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D31CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D41CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D41CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D51CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D51CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D61CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D61CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D71CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D71CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D81CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D81CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50D91CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50D91CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50DA1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50DA1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50DB1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50DB1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50DC1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50DC1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50DD1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50DD1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50DE1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50DE1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50DF1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50DF1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E01CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E01CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E11CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E11CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E21CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E21CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E31CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E31CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E41CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E41CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E51CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E51CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E61CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E61CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E71CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E71CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E81CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E81CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50E91CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50E91CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50EA1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50EA1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50EB1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50EB1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50EC1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50EC1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50ED1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50ED1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50EE1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50EE1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50EF1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50EF1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F01CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F01CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F11CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F11CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F21CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F21CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F31CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F31CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F41CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F41CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F51CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F51CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F61CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F61CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F71CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F71CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F81CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F81CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50F91CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50F91CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50FA1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50FA1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50FB1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50FB1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50FC1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50FC1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50FD1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50FD1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50FE1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50FE1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E50FF1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E50FF1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51001CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51001CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51011CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51011CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51021CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51021CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51031CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51031CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51041CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51041CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51051CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51051CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51061CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51061CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51071CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51071CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51081CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51081CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51091CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51091CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E510A1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E510A1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E510B1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E510B1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E510C1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E510C1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E510D1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E510D1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E510E1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E510E1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E510F1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E510F1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51101CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51101CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51111CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51111CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51121CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51121CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51131CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51131CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51141CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51141CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51151CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51151CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51161CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51161CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51171CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51171CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51181CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51181CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51191CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51191CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E511A1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E511A1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E511B1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E511B1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E511C1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E511C1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E511D1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E511D1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E511E1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E511E1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E511F1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E511F1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51201CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51201CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51211CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51211CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51221CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51221CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51231CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51231CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51241CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51241CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51251CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51251CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51261CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51261CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51271CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51271CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51281CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51281CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E51291CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E51291CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E512A1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E512A1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E512B1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E512B1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E512C1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E512C1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E512D1CCA6A9D00BDF5F4 /* AcciCare */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E512D1CCA6A9D00BDF5F4 /* AcciCare */ = {
+			isa = PBXGroup;
+			children = (
+				B99E512E1CCA6A9D00BDF5F4 /* AcciC */,
+			);
+			path = AcciCare;
+			sourceTree = "<group>";
+		};
+		B99E512E1CCA6A9D00BDF5F4 /* AcciC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AcciC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +1025,12 @@
 				TargetAttributes = {
 					B90C041A1CB81E0E00AB1DBD = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8J964484TN;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -189,8 +1075,10 @@
 				B96C714A1CB97D5100D13A5B /* EmergencyViewController.m in Sources */,
 				B96C71441CB97CE200D13A5B /* ContactViewController.m in Sources */,
 				B90C04261CB81E0E00AB1DBD /* ViewController.m in Sources */,
+				B99E51341CCA8A0E00BDF5F4 /* ACHealthController.m in Sources */,
 				B90C04231CB81E0E00AB1DBD /* AppDelegate.m in Sources */,
 				B96C713E1CB97B7400D13A5B /* HospitalsViewController.m in Sources */,
+				B99E513A1CCA933D00BDF5F4 /* User.m in Sources */,
 				B96C71411CB97C9300D13A5B /* HospitalDetailViewController.m in Sources */,
 				B90C04201CB81E0E00AB1DBD /* main.m in Sources */,
 				B96C71381CB96F1400D13A5B /* HomeViewController.m in Sources */,
@@ -305,10 +1193,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AcciCare/AcciCare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AcciCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoozoo.AcciCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -316,10 +1208,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AcciCare/AcciCare.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AcciCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoozoo.AcciCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
